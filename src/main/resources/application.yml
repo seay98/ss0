@@ -1,0 +1,15 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: 1234567
+  #数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis
+    username: root
+    password: secret321
+#sql日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
