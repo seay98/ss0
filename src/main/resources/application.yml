@@ -3,12 +3,18 @@ spring:
     user:
       name: admin
       password: 1234567
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: ...
+            client-secret: ...
   #数据源
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mybatis
-    username: root
-    password: secret321
+    username: ...
+    password: secret...
 #sql日志
 mybatis-plus:
   configuration:
